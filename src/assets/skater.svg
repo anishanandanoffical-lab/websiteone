@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3b12"/>
+      <stop offset="100%" stop-color="#ff8711"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff3b12" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="none"/>
+  <g transform="translate(90 40)">
+    <path d="M180 250 C130 270 100 330 120 390 C140 445 195 470 255 450 L330 430 C360 420 380 400 390 370 L420 300 C430 270 420 240 390 230 L320 210 C290 200 250 210 220 240 Z" fill="#111"/>
+    <path d="M340 200 C320 170 280 150 240 150 C200 150 180 170 170 200 C150 270 190 320 260 320 C330 320 370 280 340 200 Z" fill="url(#bodyGrad)"/>
+    <path d="M210 190 C215 180 235 170 255 170 C275 170 295 180 300 190 C301 196 280 225 255 225 C230 225 210 200 210 190 Z" fill="#111"/>
+    <path d="M280 320 C245 280 200 280 170 310 C146 337 139 384 157 420 C171 449 205 468 242 458 C300 442 320 390 280 320 Z" fill="#111"/>
+    <path d="M260 440 C215 480 220 560 320 590 C410 619 494 582 500 528 C504 494 474 450 420 430 C370 410 320 420 260 440 Z" fill="#111"/>
+    <path d="M180 520 C130 540 90 590 80 650 C75 690 90 730 120 760 C160 800 220 820 265 800 C312 780 340 730 335 680 C335 660 330 640 320 620 C300 590 260 560 220 550 C200 545 190 530 180 520 Z" fill="url(#bodyGrad)"/>
+    <path d="M320 610 C350 630 380 660 400 700 C430 760 430 820 380 850 C330 880 260 860 230 820 C210 800 205 780 210 760 C220 720 255 685 295 665 Z" fill="#111"/>
+    <path d="M80 770 L160 780 C170 780 180 790 180 800 L180 820 C180 835 165 845 150 842 L90 834 C70 830 60 815 64 795 C67 778 75 772 80 770 Z" fill="#222"/>
+    <path d="M300 760 L360 770 C380 775 390 795 385 815 C380 835 360 850 340 848 L280 842 C260 840 245 825 248 805 C250 785 265 768 285 765 Z" fill="#222"/>
+    <circle cx="115" cy="792" r="30" fill="url(#rimGrad)" opacity="0.96"/>
+    <circle cx="330" cy="828" r="34" fill="url(#rimGrad)" opacity="0.96"/>
+    <circle cx="115" cy="792" r="18" fill="#111"/>
+    <circle cx="330" cy="828" r="20" fill="#111"/>
+    <path d="M140 350 L180 295 L255 290 L295 360" stroke="#ff3b12" stroke-width="18" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M400 120 C440 140 480 180 500 220" stroke="#ff8711" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+    <path d="M540 240 C590 300 620 370 620 445" stroke="#ff3b12" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

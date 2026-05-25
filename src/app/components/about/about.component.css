@@ -1,0 +1,64 @@
+:host {
+  display: block;
+}
+
+.section-block {
+  padding: 100px 0;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.section-header span {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #ff6d2f;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: clamp(2.1rem, 3.2vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.about-text p {
+  color: rgba(255, 255, 255, 0.76);
+  line-height: 1.85;
+  font-size: 1rem;
+}
+
+.about-cards {
+  display: grid;
+  gap: 18px;
+}
+
+.about-cards article {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 28px;
+}
+
+.about-cards h3 {
+  margin: 0 0 12px;
+}
+
+.about-cards p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 840px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,13 +1,23 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FeaturesComponent } from './components/features/features.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { StatsComponent } from './components/stats/stats.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [
+    NavbarComponent,
+    HeroComponent,
+    AboutComponent,
+    FeaturesComponent,
+    StatsComponent,
+    ContactComponent
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Project1';
-}
+export class AppComponent {}
